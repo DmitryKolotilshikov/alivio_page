@@ -23,6 +23,7 @@
     background-color: var(--co-white);
     translate: -100% 0;
     transition: translate .33s;
+    z-index: 999;
 }
 
 .mobile-navigation__toggler:checked ~ .mobile-navigation__menu {
